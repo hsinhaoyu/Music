@@ -258,7 +258,7 @@
 (defmethod subdominant  ((mode (eql 'harmonic-minor))) (interval 'p4))
 (defmethod dominant     ((mode (eql 'harmonic-minor))) (interval 'p5))
 (defmethod submediant   ((mode (eql 'harmonic-minor))) (interval 'mi6))
-(defmethod subtonic     ((mode (eql 'harmonic-minor))) (interval 'mi7))
+(defmethod subtonic     ((mode (eql 'harmonic-minor))) (interval 'ma7))
 (defmethod leading-tone ((mode (eql 'harmonic-minor))) (interval 'ma7))
 
 (defmethod tonic        ((mode (eql 'melodic-minor))) (interval 'p1))
